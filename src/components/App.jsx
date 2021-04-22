@@ -1,8 +1,10 @@
-import React, {useState} from "react";
+import React, { useState, Component } from "react";
 import Header from "./partials/Header";
 import Footer from "./partials/Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+import Login from "./Login";
+import Register from "./Register";
 require('dotenv').config()
 
 function App() {
